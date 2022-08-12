@@ -11,12 +11,12 @@
       },
       "require": {
         "types": "./lib/cjs/types/index.d.ts",
-        "default": "./lib/cjs/index.cjs"
+        "default": "./lib/cjs/index.js"
       }
     }
   },
   "types": "./lib/cjs/types/index.d.ts",
-  "main": "./lib/cjs/index.cjs",
+  "main": "./lib/cjs/index.js",
   "files": [
     "lib/**/*"
   ],
