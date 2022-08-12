@@ -2,7 +2,6 @@
   "name": "@clarkio/esm-cjs-ts-npm-package",
   "version": "0.0.3",
   "description": "An npm package for demonstration purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format. It can be used in Node.js and browser applications.",
-  "type": "module",
   "exports": {
     ".": {
       "import": {
@@ -11,12 +10,12 @@
       },
       "require": {
         "types": "./lib/cjs/types/index.d.ts",
-        "default": "./lib/cjs/index.js"
+        "default": "./lib/cjs/index.cjs"
       }
     }
   },
   "types": "./lib/cjs/types/index.d.ts",
-  "main": "./lib/cjs/index.js",
+  "main": "./lib/cjs/index.cjs",
   "files": [
     "lib/**/*"
   ],
